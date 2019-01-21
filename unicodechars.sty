@@ -1,9 +1,9 @@
 % credits to: unicodepoints, unicode-math
 
-\ProvidesPackage{unicodechar-table} 
+\ProvidesPackage{unicodechars} 
 \usepackage{newunicodechar}
 \ifx\UTFviii@defined\@undefined%
- \PackageError{unicodechar-table}{This package requires UTF-8 input encoding}%
+ \PackageError{unicodechars}{This package requires UTF-8 input encoding}%
 \fi%
 % Redefine a Unicodechar without warning  
 \newcommand{\renewunicodechar}[2]{%
@@ -2445,10 +2445,4 @@
 \newunicodechar{𝟶}{\mttzero}                   
 \newunicodechar{𝟷}{\mttone}                    
 \newunicodechar{𝟸}{\mtttwo}                    
-\newunicodechar{𝟹}{\mttthree}                  
-\newunicodechar{𝟺}{\mttfour}                   
-\newunicodechar{𝟻}{\mttfive}                   
-\newunicodechar{𝟼}{\mttsix}                    
-\newunicodechar{𝟽}{\mttseven}                  
-\newunicodechar{𝟾}{\mtteight}                  
-\newunicodechar{𝟿}{\mttnine}                   
+\newunicodechar{𝟹}{\mttthre
