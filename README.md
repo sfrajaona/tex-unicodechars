@@ -1,4 +1,4 @@
-# unicodechars
+# tex-unicodechars
 
 This LaTeX package allows to use unicode characters in LaTeX source files.
 It is just a long list of \newunicodechar definitions.
