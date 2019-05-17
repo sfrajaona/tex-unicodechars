@@ -6,7 +6,7 @@ Unicode characters make the source file more readable.
 You will need a text editor in which you can enter the characters. 
 I use [Vim](https://github.com/vim) for that.
 
-## To entering unicode characters in VIM
+## To type unicode characters in VIM
 
 you can either use either
 * ctrl-V in insert mode (see `:help i_CTRL-V_digit`) 
